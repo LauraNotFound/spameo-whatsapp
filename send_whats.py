@@ -1,11 +1,10 @@
 import pywhatkit
-from number import mobile
 from number import mobiles
 
 msg = ""
 time_hour = 8
 time_min = 27
-for i in mobile:
+for i in mobiles:
 
     pywhatkit.sendwhatmsg(i,msg, time_hour, time_min, 32, True, 3)
     time_min = time_min + 1
