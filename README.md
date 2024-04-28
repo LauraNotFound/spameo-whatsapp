@@ -5,4 +5,4 @@ Envío masivo de mensajes por whatsapp.
 Comando de instalación: pip install pywhatkit
 También puedes encontrarlo en: https://pypi.org/project/pywhatkit/
 ## Números a los que se va a enviar el mensaje spam
-Puedes agregar los números al array de la carpeta number
+Puedes agregar los números al array mobiles de la carpeta number
